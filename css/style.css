@@ -135,6 +135,25 @@ main{
     text-align: center;
     margin-top: 20px;
 }
-.about-info{
-    margin: 0 auto;
+
+
+/* skill section style */
+.skill-container{
+    display: flex;
+    /* padding: 40px 10px; */
+    margin-top: 50px;
+}
+.skill{
+    margin: 20px 40px;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, .1);
+    padding: 20px;
+    border-radius: 5px;
+}
+.skill-title{
+    margin: 20px 0;
+}
+.skill-description{
+    width: 170px;
+    margin-top: 20px;
 }
