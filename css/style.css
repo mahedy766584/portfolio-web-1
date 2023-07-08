@@ -11,6 +11,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 nav h2{
     color: #181818;
@@ -26,6 +27,7 @@ nav > ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 nav ul li{
     margin-right: 50px;
@@ -47,6 +49,12 @@ nav .btn-1 a{
     color: #fff;
     font-weight: 600;
 }
-.h-continer{
+.banner{
+    padding: 30px 30px 30px 150px;
     display: flex;
+    align-items: center;
+}
+header .banner .profile-pic{
+    width: 584px;
+    height: 676px;
 }
