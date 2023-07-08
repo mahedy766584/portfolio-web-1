@@ -144,7 +144,7 @@ main{
     margin-top: 50px;
 }
 .skill{
-    margin: 20px 40px;
+    margin: 20px 35px;
     background-color: #fff;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, .1);
     padding: 20px;
@@ -156,4 +156,84 @@ main{
 .skill-description{
     width: 170px;
     margin-top: 20px;
+    color: #757575;
+}
+/* resume-container style */
+.resume-container{
+    margin-top: 30px;
+    margin-left: 40px;
+    padding: 90px;
+}
+.education-pp{
+    display: flex;
+}
+.education-p{
+    margin: 30px 30px;
+}
+.education-c{
+    margin-top: 40px;
+    width: 80%;
+}
+hr{
+    margin-top: 10px;
+}
+.education-description{
+    color: #757575;
+}
+.btn-5{
+    padding: 11px 15px;
+    background-color: #FD6E0A;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    margin-left: 40%;
+}
+footer{
+    background-color: #FFF8F3;
+    padding: 80px;
+    margin: 0 auto;
+}
+.footer{
+    display: flex;
+    max-width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 40px;
+}
+.footer-title-1{
+    margin-bottom: 15px;
+}
+.footer-description{
+    margin-bottom: 15px;
+}
+
+.lets-message-me{
+    display: flex;
+    flex-direction: column;
+}
+.lets-message-me >input, textarea{
+    margin-top: 15px;
+    padding: 10px 40px;
+    background-color: #fff;
+    outline: none;
+    border: none;
+}
+.btn-6{
+    padding: 10px 8px;
+    background-color: #FD6E0A;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    width: 100px;
+    margin-top: 40px;
 }
